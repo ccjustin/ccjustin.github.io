@@ -1,38 +1,77 @@
 <!DOCTYPE html> 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<html lang="en">
 
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ccjustin's personal site</title>
-    
+     
     <!-- icons link -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
 
 <body>
+
+    <!-- sidebar code  -->
     <div class="sidebar">
         <div class="logo_content">
             <div class="logo">
+                <i class="bx bx1-c-plus-plus"></i>
                 <div class="logo_name">
                     Justin Chen
                 </div>
             </div>
+            <i class="bx bx-menu" id="btn"></i>
         </div>
 
         <ul class="nav_list">
             <li>
                 <a href="#">
-                    <i class="bx bx-menu" id="btn"></i>
+                    <i class="bx bx-grid-alt"></i>
                     <span class="links_name">Dashboard</span>
                 </a>
+                <span class="tooltip">Dashboard</span>
             </li>
-            <!-- <span class="tooltip">Dashboard</span> -->
+
+            <li>
+                <a href="#">
+                    <i class='bx bx-expand-horizontal'></i>
+                    <span class="links_name">Projects</span>
+                </a>
+                <span class="tooltip">Projects</span>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class='bx bxs-briefcase-alt-2'></i>
+                    <span class="links_name">Experience</span>
+                </a>
+                <span class="tooltip">Experience</span>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class='bx bxs-cat'></i>
+                    <span class="links_name">Personal Interests</span>
+                </a>
+                <span class="tooltip">Personal Interests</span>
+            </li>
         </ul>
-        
-        
+
+        <!-- profile start  -->
+        <div class="profile_content">
+            <div class="profile">
+                <div class="profile_details">
+                    <!-- <img src="profilepic.jpg" alt="profile picture">  -->
+                    <div class="name_job">
+                        <div class="name">Justin Chen</div>
+                        <div class="job">Software Engineer</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
