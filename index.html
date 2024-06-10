@@ -14,60 +14,86 @@
 </head>
 
 <body>
-    <!-- sidebar code  -->
-    <div class="sidebar">
-        <!-- <div class="logo_content">
-            <div class="logo">
-                <i class="bx bx1-c-plus-plus"></i>
-                <div class="logo_name">
-                    Justin Chen
-                </div>
-            </div>
-            <i class="bx bx-menu" id="btn"></i>
-        </div> -->
+    <div class="container">
+        <!-- sidebar code  -->
+        <div class="sidebar">
+            <ul class="nav_list">
+                <li>
+                    <a href="#">
+                        <i class="bx bx-grid-alt"></i>
+                        <span class="links_name">Dashboard</span>
+                    </a>
+                </li>
 
-        <ul class="nav_list">
-            <li>
-                <a href="#">
-                    <i class="bx bx-grid-alt"></i>
-                    <span class="links_name">Dashboard</span>
-                </a>
-            </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-expand-horizontal'></i>
+                        <span class="links_name">Projects</span>
+                    </a>
+                </li>
 
-            <li>
-                <a href="#">
-                    <i class='bx bx-expand-horizontal'></i>
-                    <span class="links_name">Projects</span>
-                </a>
-            </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bxs-briefcase-alt-2'></i>
+                        <span class="links_name">Experience</span>
+                    </a>
+                </li>
 
-            <li>
-                <a href="#">
-                    <i class='bx bxs-briefcase-alt-2'></i>
-                    <span class="links_name">Experience</span>
-                </a>
-            </li>
-
-            <li>
-                <a href="#">
-                    <i class='bx bxs-cat'></i>
-                    <span class="links_name">Personal Interests</span>
-                </a>
-            </li>
-        </ul>
+                <li>
+                    <a href="#">
+                        <i class='bx bxs-cat'></i>
+                        <span class="links_name">Personal Interests</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
 
         <!-- profile start  -->
-        <div class="profile_content">
-            <div class="profile">
-                <div class="profile_details">
-                    <!-- <img src="profilepic.jpg" alt="profile picture">  -->
-                    <div class="name_job">
-                        <div class="name">Justin Chen</div>
-                        <div class="job">Software Engineer</div>
-                    </div>
+        <div class="profile_container">
+            
+            <div class="profile_description">
+
+                <h2>Hi! My name is Justin Chen.</h2>
+
+                <p> 
+                    I am an entry-level software engineer with skills in web development and machine learning.
+                    At the University of Michigan, I led the software team for Michigan Neuroprosthetics in developing
+                    mobile and web applications. As an IT intern at May Mobility, I developed a dashboard web application 
+                    for the IT department alongside technical support for engineers around the office.
+                    Feel free to contact me about job opportunities or work!
+                </p>
+
+            </div>
+
+            <div class="socials" style="padding-left: 40px;">
+                <img id="pfp" src="profilepic.jpg" alt="profile picture">
+
+                <div>
+                    <ul id="social_icons" style="list-style: none;">
+                        <li style="float: left;">
+                            <a href="https://www.linkedin.com/in/justin-chen-165778205/">
+                                <i class='icon bx bx-lg bxl-linkedin-square' ></i>
+                                <!-- <span class="links_name">Dashboard</span> -->
+                            </a>
+                        </li>
+                        
+                        <li style="float: left;">
+                            <a href="https://github.com/ccjustin/">
+                                <i class='bx bx-lg bxl-github'></i>
+                                <!-- <span class="links_name">Dashboard</span> -->
+                            </a>
+                        </li>
+
+                        <li style="float: left;">
+                            <a href="mailto: ccjustin@umich.edu">
+                                <i class='bx bx-lg bxl-gmail' alt="ccjustin@umich.edu"></i>
+                                <!-- <span class="links_name">Dashboard</span> -->
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-</body>
+    </body>
 </html>
