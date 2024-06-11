@@ -18,6 +18,7 @@ html, body, .container
     background: #11101d;
 }
 
+/* SIDEBAR CSS */
 .sidebar
 {
     float: left;
@@ -103,6 +104,7 @@ html, body, .container
     pointer-events: none;
 }
 
+/* css for all pages */
 .page
 {
     flex: 1;
@@ -114,8 +116,41 @@ html, body, .container
     color: #fff;
 }
 
+/* css for "about" page */
 .profile_description
 {
     width: 500px;
     padding-top: 100px;
+}
+
+/* css for projects page */
+.projects_container
+{
+    padding-left: 25px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.tile
+{
+    background-color: #433f72;
+    width: 300px;
+    height: 270px;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 25px;
+    /* margin-right: 25px; */
+}
+
+.tile hr
+{
+    width: 270px;
+    justify-self: center;
+    margin: auto;
+}
+
+.tile h4
+{
+    padding-top: 10px;
 }
