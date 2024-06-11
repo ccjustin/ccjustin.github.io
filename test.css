@@ -15,7 +15,6 @@ html, body, .container
 .container
 {
     display: flex;
-    /* background: #541609; */
     background: #11101d;
 }
 
@@ -26,8 +25,7 @@ html, body, .container
     left: 0;
     height: 100%;
     width: 240px;
-    /* background: #11101d; */
-    background: #541609;
+    background: #41404a;
     padding: 6px 14px;
 }
 
@@ -81,6 +79,7 @@ html, body, .container
 {
     color: #11101d;
     background: #fff;
+
 }
 
 .sidebar ul li i
@@ -98,7 +97,13 @@ html, body, .container
     pointer-events: none;
 }
 
-.profile_container
+.sidebar .links_name
+{
+    opacity: 1;
+    pointer-events: none;
+}
+
+.page
 {
     flex: 1;
 
@@ -106,6 +111,7 @@ html, body, .container
     align-self: center;
     padding-left: 80px;
     padding-bottom: 100px;
+    color: #fff;
 }
 
 .profile_description
