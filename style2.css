@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+}
+
+html, body, .container
+{
+    height: 100%;
+}
+.container
+{
+    background: #200A04;
+}
+
+.container > div
+{
+    position: absolute;
+}
+
+.banner
+{
+    background-color: #D44625;
+    width: 100%;
+    height: 35px;
+}
+
+.profile_container
+{
+    top: 20px;
+    left: 60px;
+    width: 500px;
+    height: 300px;
+    /* background-color: aquamarine; */
+}
+
+.profile_container img
+{
+    width:  225px;
+    height: 225px;
+    border: 5px solid bisque;
+    border-radius: 50%;
+}
+
+.profile_container .title
+{
+    position: relative;
+    float: right;
+    right: 65px;
+    top: 50px;
+    color: white;
+}
+
+.description
+{
+    position: relative;
+    border: 5px solid bisque;
+    background-color: #D44625;
+    top: 50px;
+    height: 415px;
+    border-radius: 25px;
+    padding: 10px;
+    color: white;
+}
+
+.navbar
+{
+    display: flex;
+    top: 20px;
+    right: 60px;
+    width: 700px;
+    height: 50px;
+    background-color: white;
+}
+
+.projects_container
+{
+    background-color: white;
+    width: 700px;
+    height: 500px;
+    right: 60px;
+    top: 125px;
+}
