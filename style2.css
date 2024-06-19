@@ -10,11 +10,11 @@
 html, body, .container
 {
     height: 100%;
-}
-.container
-{
     background: #200A04;
 }
+/* .container */
+/* { */
+/* } */
 
 .container > div
 {
@@ -73,14 +73,65 @@ html, body, .container
     right: 60px;
     width: 700px;
     height: 50px;
-    background-color: white;
+
+    border: 5px solid bisque;
+    border-radius: 25px;
+    background-color: #D44625;
+}
+
+.navbar .nav_item
+{
+    flex: 1;
+    text-align: center;
+    align-content: center;
+}
+
+.navbar .nav_item a
+{
+    text-decoration: none;
+    color: white;
 }
 
 .projects_container
 {
-    background-color: white;
+    display: flex;
+    /* background-color: white; */
     width: 700px;
     height: 500px;
     right: 60px;
-    top: 125px;
+    top: 100px;
+
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.projects_container .tools
+{
+    /* position: relative; */
+    bottom: 20px;
+}
+
+.tile
+{
+    background-color: #D44625;
+    width: 330px;
+    height: 270px;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 25px;
+    border: 5px solid bisque;
+    color: white;
+}
+
+.tile hr
+{
+    width: 270px;
+    justify-self: center;
+    margin: auto;
+}
+
+.tile h4
+{
+    padding-top: 10px;
 }
