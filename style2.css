@@ -10,11 +10,8 @@
 html, body, .container
 {
     height: 100%;
-    background: #200A04;
+    background: #100201;
 }
-/* .container */
-/* { */
-/* } */
 
 .container > div
 {

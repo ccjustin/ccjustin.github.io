@@ -1,9 +1,20 @@
-let btn = document.querySelector("#btn");
-let sidebar = document.querySelector(".sidebar");
-// let search = document.querySelector(".bx-search");
+let pages = {
+    "projects" : document.getElementById('projects'),
+    "experience" : document.getElementById('experience') ,
+    "resume" : document.getElementById('resume')
+}
 
-btn.onclick = () =>
+let switchTab = (tab) => 
     {
-        sidebar.classList.toggle("active");
-    }
+        for(const [k, v] of Object.entries(pages))
+            {
+                if(pages[k]  == tab)
+                {
+                    pages[tab]
+                }
+                else
+                {
 
+                }
+            }
+    }
